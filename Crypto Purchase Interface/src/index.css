@@ -1,0 +1,126 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+}
+ 
+
+.App {
+  text-align: center; 
+  padding: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.cardArticle {
+  display: flex;
+  flex-wrap: wrap;  
+  justify-content: space-around;  
+}
+ 
+.cardMain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  
+  padding: 20px;
+  text-align: center;
+  width: 300px;
+}
+
+.imgDiv img {
+  max-width: 100%;
+  height: auto;
+}
+
+.btmSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.btnDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+button {
+  margin: 5px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+input[type="number"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 500;
+  width: 150px;
+  text-align: center;
+}
+
+
+.cartDiv {
+  display: flex;
+
+}
+
+/* CartCard.css */
+
+.cartDiv {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr 2fr 1fr 2fr;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 10px;
+  background-color: #fff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.cartDiv img {
+  max-width: 80px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.cartDiv h3 {
+  font-size: 18px;
+  margin: 0;
+  flex-grow: 1;
+}
+
+.cartDiv h4 {
+  font-size: 16px;
+  font-weight: bold; 
+}
+
+.cartDiv h3:last-child {
+  font-size: 20px;
+  font-weight: bold;
+  color: #28f42f;
+}
